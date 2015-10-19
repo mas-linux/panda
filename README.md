@@ -3,7 +3,7 @@ Install tools kali linux on ubuntu for panda
 
 # Instalation
 - sudo su
-- git clone git@github.com:mas-linux/panda.git
+- git clone https://github.com/mas-linux/panda.git
 - chmod +x panda.py
 - ./panda.py
 
