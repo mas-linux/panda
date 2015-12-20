@@ -20,5 +20,5 @@ Install tools kali linux on ubuntu for panda
 3. Install menu kali-linux
 4. Help and Note(BACA DULU)
 
-Visite Blog : http://mas-linux.blogspot.com/
+Visite Blog : http://mas-linux.web.id/
 
