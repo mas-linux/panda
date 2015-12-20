@@ -37,7 +37,7 @@ def main():
 					'''
 					repo = raw_input("\033[1;32mSilahkan pilih salah satu+++>|-$ \033[1;m")
 					if repo == "1":
-						cmd1 = os.system("wget -q -O - http://mas-linux.comze.com/kali.pgp | sudo apt-key add -")
+						cmd1 = os.system("wget -q -O - http://panda-tools.comlu.com/kali.pgp | sudo apt-key add -")
 						cmd2 = os.system("echo '# Kali linux repositories | Added by Panda\ndeb http://ppa.launchpad.net/wagungs/kali-linux2/ubuntu raring main\ndeb-src http://ppa.launchpad.net/wagungs/kali-linux2/ubuntu raring main\ndeb http://ppa.launchpad.net/wagungs/kali-linux/ubuntu raring main\ndeb-src http://ppa.launchpad.net/wagungs/kali-linux/ubuntu raring main\ndeb http://ppa.launchpad.net/wagungs/kali-linux1/ubuntu raring main\ndeb-src http://ppa.launchpad.net/wagungs/kali-linux1/ubuntu raring main\n' >> /etc/apt/sources.list")
 					elif repo == "2":
 						cmd3 = os.system("apt-get update -m")
